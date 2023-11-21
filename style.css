@@ -1,0 +1,189 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-section {
+  width: 25%;
+  height: 100vh;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.website-logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.new-chat-btn {
+  flex: 8; /* Updated width to 80% */
+  background-color: #000;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.burger-menu-icon {
+  flex: 2;
+  font-size: 24px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.list-of-chats .single-chat-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #333;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.profile-section {
+  margin-top: auto;
+}
+
+.upgrade-section {
+  display: flex;
+  align-items: center;
+}
+
+.stars-icon-section {
+  display: flex;
+  align-items: center;
+}
+
+.circular-box {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #555;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stars-icon {
+  font-size: 20px;
+}
+
+.information-section {
+  font-size: 14px;
+}
+
+.gpt-info {
+  margin-top: 5px;
+}
+
+.inner-profile-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.profile-picture-section {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #555;
+  margin-right: 10px;
+}
+
+.profile-name {
+  font-weight: bold;
+}
+
+/* Right Section Styles */
+.right-section {
+  width: 75%;
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top Button Section Styles */
+.top-button-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* 1st and 2nd Button Styles */
+.top-btn {
+  width: 48%;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Middle Section Styles */
+.middle-section {
+  text-align: center;
+    margin-bottom: 276px;
+    margin-right: 29px;
+   
+    margin-top: 129px;
+}
+
+
+
+/* Suggestion Box Styles */
+.suggestion-box {
+  width: 100%;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.bottom-section {
+  text-align: center;
+}
+/* Input Message Box Styles */
+.input-message-box {
+  width: calc(80% - 20px);
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+/* Send Icon Styles */
+.send-icon {
+  font-size: 20px;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-left: 10px;
+}
